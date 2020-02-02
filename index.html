@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/browser-icon.png">
+    <link rel="stylesheet" href="reset.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Playfair+Display:700|Raleway:400,700|Roboto:300&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Жилой комплекс HouseVOP</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-menu">
+                <div class="logo">
+                    <a href="#">HouseVOP</a>
+                    <a href="#">жилой комплекс</a>
+                </div>
+                <nav class="menu">
+                    <div class="menu-btn">
+                        <span></span>
+                    </div>
+                    <ul class="links">
+                        <li><a href="#advantages">О комплексе</a></li>
+                        <li><a href="#location">Район</a></li>
+                        <li><a href="#catalog">Каталог квартир</a></li>
+                        <li><a href="#hypothec">Ипотека</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-info">
+                <div class="header-info__title">
+                    <h1>Жилой комплекс <br> в историческом центре</h1>
+                </div>
+                <div class="header-info__contacts">
+                    <div class="location"><img src="img/location.svg" alt="location">Наб. реки Фонтанки 10-15</div>
+                    <div class="phone"><img src="img/phone.svg" alt="phone">8 (812) 123-45-67</div>
+                </div>
+            </div>
+        </div>
+        <div id="advantages"></div>
+    </header>
+
+    <section class="advantages">
+
+        <div class="container">
+
+            <div class="advantages-list">
+                <div class="advantages-card">
+                    <img src="img/advantage-1.svg" alt="">
+                    Рядом исторические парки и скверы
+                </div>
+
+                <div class="advantages-card">
+                    <img src="img/advantage-2.svg" alt="">
+                    Полностью обустроенный
+                </div>
+                <div class="advantages-card">
+                    <img src="img/advantage-3.svg" alt="">
+                    10 фонтанов на территории
+                </div>
+                <div class="advantages-card">
+                    <img src="img/advantage-4.svg" alt="">
+                    6 км <br> велодорожек
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="offers" id="catalog">
+        <div class="container">
+            <h2 class="offers-title">Наши квартиры</h2>
+            <div class="offers-list">
+
+                <div class="offer-card">
+                    <a href="#">
+                        <img src="img/offer-image.jpg" alt="">
+                        <p>Лофт — 3 этажа</p>
+                    </a>
+                </div>
+
+                <div class="offer-card">
+                    <a href="#">
+                        <img src="img/offer-image.jpg" alt="">
+                        <p>Лофт — 2 этажа</p>
+                    </a>
+                </div>
+
+                <div class="offer-card">
+                    <a href="#">
+                        <img src="img/offer-image.jpg" alt="">
+                        <p>Лофт — 3 этажа</p>
+                    </a>
+                </div>
+
+                <div class="offer-card">
+                    <a href="#">
+                        <img src="img/offer-image.jpg" alt="">
+                        <p>Лофт — 2 этажа</p>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta">
+
+        <div class="container">
+
+            <div class="cta-info">
+
+                <div class="cta-info__left">
+
+                    <div class="cta-info__title">Хотите посмотреть?</div>
+                    <div class="cta-info__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+                        Lorem Ipsum для распечатки образцов. </div>
+                </div>
+
+                <div class="cta-info__right">
+
+                    <form class="first-form" action="form.php" method="POST" id="contacts">
+                        <div class="form-container">
+                            <input type="text" name="name" id="name" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-container">
+                            <input type="number" name="number" id="number" placeholder="Ваш телефон">
+                        </div>
+                        <div class="form-container">
+                            <p>*Мы никому не передаем ваши данные.
+                                И не сохраняем ваш номер в базу.</p>
+                        </div>
+                        <div class="form-container">
+                            <button type="submit" id="submit">Посмотреть район</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="video">
+
+        <div class="container">
+
+            <div class="video-info">
+
+                <video class="video" src="img/video.mp4" poster="img/preloader.jpg" width="720" height="450"></video>
+                <div class="playpause"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="map" id="location">
+
+        <div class="container">
+            <div class="map-info__title">Район на карте</div>
+            <div class="map-ifno__map"><img src="img/map.jpeg" alt="map"></div>
+
+        </div>
+
+    </section>
+
+    <section class="questions">
+
+        <div class="container">
+
+            <div class="questions-info">
+
+                <div class="questions-info__title">Есть вопросы?</div>
+                <div class="cta-info__right footer-form">
+
+                    <form class="second-form" action="form.php" method="POST" id="hypothec">
+                        <div class="form-container">
+                            <p>*Мы никому не передаем ваши данные.
+                                И не сохраняем ваш номер в базу.</p>
+                        </div>
+                        <div class="form-container">
+                            <input type="text" name="name" id="name" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-container">
+                            <input type="number" name="number" id="number" placeholder="Ваш телефон">
+                        </div>
+
+                        <div class="form-container">
+                            <button type="submit" id="submit">Посмотреть район</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <section class="footer">
+
+            <div class="container">
+
+                <div class="footer-info">
+
+                    <div class="logo">
+                        <a href="#">HouseVOP</a>
+                        <a href="#">жилой комплекс</a>
+                    </div>
+                    <div class="footer-info__first">
+                        <a href="#">О комплексе</a>
+                        <a href="#">Район</a> <br>
+                        <a href="#">Каталог квартир</a>
+                        <a href="#">Ипотека</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                    <div class="footer-info__second">
+                        <a href="#">О комплексе</a>
+                        <a href="#">Район</a> <br>
+                        <a href="#">Каталог квартир</a>
+                        <a href="#">Ипотека</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                    <div class="footer-info__third">
+                        Адрес: Наб. реки Фонтанки 10-15 <br>
+                        Телефон: 8 (812) 123-45-67 <br>
+                        Отдел продаж: 10:00 - 20:00 <br>
+                        E-mail: <mark>vip@housevip.ru</mark>
+                        <div class="social-networks">
+                            <a href="">
+                                <img src="img/youtube-icon.svg" alt="youtube" href="#"></a>
+                            <a href="">
+                                <img src="img/vk-icon.svg" alt="vk" href="#"></a>
+                            <a href="">
+                                <img src="img/facebook-icon.svg" alt="facebook" href="#"></a>
+                            <a href="">
+                                <img src="img/instagram-icon.svg" alt="instagram" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </footer>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
